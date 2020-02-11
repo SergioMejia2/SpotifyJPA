@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="TerceraEntregaPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entities.Familiar</class>
+    <class>Entities.Album</class>
+    <class>Entities.Suscripcion</class>
+    <class>Entities.Reaccion</class>
+    <class>Entities.Cancionxplaylist</class>
+    <class>Entities.Individual</class>
+    <class>Entities.Cancion</class>
+    <class>Entities.Genero</class>
+    <class>Entities.Cancionxinterprete</class>
+    <class>Entities.Usuario</class>
+    <class>Entities.Interprete</class>
+    <class>Entities.Idioma</class>
+    <class>Entities.Registro</class>
+    <class>Entities.Discografica</class>
+    <class>Entities.Playlist</class>
+    <class>Entities.Gratuita</class>
+    <class>Entities.Pais</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is316312"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="ORW5d9AYbF"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
+      <property name="eclipselink.logging.parameters" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>

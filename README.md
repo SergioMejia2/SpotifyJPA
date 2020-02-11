@@ -1,0 +1,1 @@
+Needs ojdbc7.jar in the root file to work
